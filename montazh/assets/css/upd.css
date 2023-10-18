@@ -1,0 +1,174 @@
+.header-photo .header__right {
+	width: 41%;
+}
+.header-main {
+	padding: 130px 0;
+}
+.header-photo2 .header__back {
+	right: calc(50vw - 240px)
+}
+menu .menu__top .current_page_item a, .hidden-menu .hidden-menu__wrapper .current_page_item a, footer .footer__top__col:first-child .current_page_item a {
+	color: #00d2cf;
+}
+.form__right label {
+	margin-bottom: 25px;
+	display: block;
+}
+.form__right form  .row { 
+	margin-bottom: 0;
+}
+.wpcf7-response-output, .wpcf7-spinner, .wpcf7-not-valid-tip {
+	display: none!important;
+}
+.wpcf7-not-valid {
+	border: 1px solid red!important;
+}
+form input {
+	font-size: 18px;
+}
+.formpage p {
+	font-size: 18px;
+    margin-bottom: 10px;   
+    line-height: 138%;
+    font-weight: 500;
+    color: #333;
+}
+.formpage  .formpage__form .btn2 {
+	background: linear-gradient(160.05deg,#d95843 3.65%,#ae4f3f 86.68%);
+    -webkit-box-shadow: 0 4px 25px rgb(210 87 67 / 41%);
+    box-shadow: 0 4px 25px rgb(210 87 67 / 41%);
+    border-radius: 39px;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 40px;
+    width: -webkit-fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+    min-width: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    border:  none;
+}
+.formpage  .formpage__form .btn2:hover {
+	color: #fff;
+    -webkit-box-shadow: 0 4px 25px rgb(210 87 67 / 81%);
+    box-shadow: 0 4px 25px rgb(210 87 67 / 81%);
+}
+.spasibo h1 {
+	line-height: 100%;
+	font-size: 69px;
+	margin-bottom: 57px;
+}
+.montazh-col li:first-child a {
+	font-weight: 700;
+	color: #333;
+}
+.montazh-col li:first-child a:hover {	
+	color: #00d2cf;
+}
+.projects__photo__gall a {
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	max-height: 266px;
+}
+.projects__photo__gall img {
+	object-fit: cover;
+	height: 100%;
+}
+menu .menu__top  .current-menu-item a {
+	color: #00d2cf;
+}
+.contacts-links img {
+	width: 20px;
+	height: 20px;
+}
+.contacts-links {
+	flex-wrap: wrap;
+}
+.footer-descr a {
+	display: inline-block;
+}
+.also__grid img {
+	height: 250px;
+}
+.text h2 {
+	max-width: 800px;
+	margin: 0 auto 25px;
+}
+footer .footer__top__col .current-menu-item a, .hidden-menu .hidden-menu__wrapper .current-menu-item a {
+	color: #00d2cf;
+}
+menu .menu__bottom__right .contacts-links a, footer .footer__bottom .menu__bottom__right .contacts-links a {
+	margin-right: 0;
+}
+
+@media screen and (min-width: 1400px) {
+	.empty-page {
+		display: flex;
+		align-items: center;
+		margin-top: 0;
+	}
+	.header-inner .header__back {
+		right: 372px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.header-main {
+		padding: 0
+	}
+	.header-inner {
+	    padding: 70px 0;
+	    margin-bottom: 70px;	
+	}
+	.prices {
+	    margin-bottom: 70px;
+	    padding-top: 90px;
+	    padding-bottom: 50px;
+	}
+	.also__grid img {
+		height: 30vw;
+	}
+	.header-main .header__right {
+		padding: 0;
+		max-width: 600px;		
+	}
+	.jobs .jobs__item .jobs__item__left .job__photo {
+		max-width: 600px;		
+	}
+	.also__grid {
+		grid-gap: 40px 10px;
+	}
+	.also__grid p {
+		font-size: 14px
+	}
+	.header-photo .header__right {
+		max-width: 500px;
+		width: 100%;
+	}
+	.header-photo2 .header__right {
+		height: 300px;
+		padding: 23px;		
+	}
+	.header-photo .header__right {
+		display: none;
+	}
+}
+
+
+@media screen and (min-width: 981px) and (max-width: 1400px) {
+	.header-photo2 .header__right .swiper-slide {
+		font-size: 14px;
+		text-align: center
+		
+	}
+	.header-photo2 .header__right  {
+		padding: 30px;
+	}
+}
